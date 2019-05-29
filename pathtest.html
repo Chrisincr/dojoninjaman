@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type = "text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wall{
+            background-color: blue;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+        }
+        .sushi{
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            background-image: url('img/sushi.png');
+            background-repeat: no-repeat;
+        }
+        .onigiri{
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            background-image: url('img/onigiri.png');
+            background-repeat: no-repeat;
+        }
+        .blank{
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+        }
+        #ninjaman{
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            background-image: url('img/ninja.gif');
+            background-size: contain;
+            position:absolute;
+            
+            
+        }
+        #pinky{
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            background-image: url('img/pinky.gif');
+            background-size: contain;
+            position:absolute;
+            
+            
+        }
+        #score{
+            background-color: red;
+            height: 80px;
+            width: 80px;
+            display: inline-block;
+            position:absolute;
+        }
+        .orphan{
+            background-color: green;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+        }
+        #gameover{
+
+            background-image: url('img/gameoverBG.gif');
+            height: 600px;
+            width: 600px;
+            position:absolute;
+            top: 0;
+            background-size: cover;
+            background-repeat: round;
+            
+
+        }
+        #gameover div{
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 50px;
+            text-align: center;
+            margin-top: 240px;
+            margin-left: 50px;
+            color: darkred;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id ='world'></div>
+    
+</body>
+</html>
